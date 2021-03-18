@@ -1,0 +1,280 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	/*navbar*/
+	.logoimg img{
+		width: 50%;
+	}
+	.menudiv{
+	  text-align: center;
+	}
+	.main_box{
+	  padding: 50px 0 150px 0;
+	}
+	.my-navbar {
+	    padding: 10px 0;
+	}
+	.main_box h4{
+	  font-size: 28px;
+	}
+	.main_box h2{
+	  font-size: 50px;
+	}
+	.shadow_box{
+	  height: 50px;
+	  width: 50px;
+	  margin-left: 10px;
+	  background-color: #000000;
+	}
+	.logoimg img{
+		margin-left: -20%;
+	}
+	/*whysection*/
+	.mostcommon{
+	  padding: 100px 10px;
+	}
+	.featured_box {
+	    padding: 20px;
+	}
+
+	/*team section start*/
+	.headingbox h2 {
+	    color: white;
+	    font-size: 18px;
+	    margin-top: 25px;
+	}
+	.team_social span {
+	    background-color: white;
+	    height: 30px;
+	    width: 30px;
+	}
+	.f_social span a i {
+	    margin-top: 8px;
+	}
+	/*team section end*/
+
+	
+	/*footer section start*/
+	footer{
+		padding: 50px 0;
+	}
+	.left_footerbox {
+	    padding-top: 24px;
+	}
+	.footer_subheading {
+	    font-size: 14px;
+	}
+	.footer_heading {
+	    font-size: 17px;
+	}
+	.footer_right{
+		padding-top: 0;
+	}
+	.footer_logo {
+	    padding-top: 30px;
+	}
+	.p_padding{
+		padding-right: 0;
+	}
+	.p_padding_left{
+		padding-left: 0;
+	}
+	.footer_right p {
+	    line-height: 8px;
+	    font-size: 14px;
+	}
+	.footer_right a {
+	    line-height: 50px;
+	}
+
+	/*============================ HOME PAGE END =============================*/
+	.mostcommon h4 {
+	    font-size: 20px;
+	    letter-spacing: 1.5px;
+	}
+	.mostcommon h2, .empower h2{
+		font-size: 28px;
+	}
+	.quotabox i {
+	    font-size: 70px;
+	}
+	.banner_right p {
+	    font-size: 20px;
+	}
+	.f_maint {
+	    font-size: 40px;
+	}
+	.questionbox {
+	     padding: 60px 0; 
+	}
+	.button_box a {
+	    padding: 25px 45px;
+	}
+	.mostcommon p {
+	    font-size: 16px;
+	    line-height: 36px;
+	}
+
+	/*=========================page 4 start===================*/
+	.right_content3 {
+	    padding: 20px;
+	}
+	.right_heading {
+	    font-size: 49px;
+	}
+	.bannersection3 {
+	    padding: 100px 0;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.my-navbar {
+	    padding: 10px 0;
+	}
+	.logoimg img{
+		width: 30%;
+	}
+	.menudiv{
+	  text-align: center;
+	}
+	.logoimg img{
+		margin-left: -20%;
+	}
+	.main_box{
+	  padding: 50px 0 150px 0;
+	}
+	.main_box h4{
+	  font-size: 28px;
+	}
+	.main_box h2{
+	  font-size: 50px;
+	}
+	.shadow_box{
+	  height: 50px;
+	  width: 50px;
+	  margin-left: 10px;
+	  background-color: #000000;
+	}
+	/*whysection*/
+	.why_content{
+	  padding: 100px 20px;
+	}
+	.featured_box {
+	    padding: 20px;
+	}
+
+	/*team section start*/
+	.headingbox h2 {
+	    color: white;
+	    font-size: 18px;
+	    margin-top: 25px;
+	}
+	.team_social span {
+	    background-color: white;
+	    height: 30px;
+	    width: 30px;
+	}
+	.f_social span a i {
+	    margin-top: 8px;
+	}
+	/*team section end*/
+
+	/*footer section start*/
+	footer{
+		padding: 50px 0;
+	}
+	.left_footerbox {
+	    padding-top: 24px;
+	}
+	.footer_subheading {
+	    font-size: 20px;
+	}
+	.footer_heading {
+	    font-size: 24px;
+	}
+	.footer_right{
+		padding-top: 0;
+	}
+	.footer_logo {
+	    padding-top: 30px;
+	}
+
+
+	/*============================ HOME PAGE END =============================*/
+	.mostcommon h4 {
+	    font-size: 20px;
+	    letter-spacing: 1.5px;
+	}
+	.mostcommon h2, .empower h2{
+		font-size: 35px;
+	}
+	/*=======================================page 3 ============================*/
+	.bannersection3 {
+	    padding: 100px 0;
+	}
+	.mymaint{
+		font-size: 50px;
+	}
+	.myquestionbox {
+	    padding: 60px 0;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*banner section*/
+	.main_box{
+		 padding: 80px 0 80px 120px;
+
+		}
+	.main_box h2{
+	  font-size: 80px;
+	}
+	.logoimg img{
+		width: 30%;
+	}
+	/*whysection*/
+	.mostcommon{
+	  padding: 150px;
+	}
+	.footer_heading{
+	  font-size: 42px;
+	}
+	.footer_logo {
+	    padding-top: 40%;
+	}
+
+	/*============================ HOME PAGE END =============================*/
+	.mostcommon {
+	    padding: 65px;
+	}
+	.mostcommon h2, .empower h2{
+		font-size: 40px;
+	}
+	.mostcommon h4 {
+	    font-size: 22px;
+	    letter-spacing: 1.5px;
+	}
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*whysection*/
+	.mostcommon{
+	  padding: 150px;
+	}
+
+	/*featured section start*/
+	.featured_box {
+	    padding: 60px;
+	}
+	/*============================ HOME PAGE END =============================*/
+	.mostcommon h2, .empower h2{
+		font-size: 46px;
+	}
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+}
